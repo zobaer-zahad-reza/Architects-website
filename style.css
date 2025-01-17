@@ -175,4 +175,8 @@ main > section {
     .our-features{
         margin: 50px auto;
     }
+    .fact-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
 }
