@@ -212,6 +212,7 @@ footer{
     margin-top: 80;
     margin-bottom: 100px;
     border-radius: 10px;
+    max-width: 1440px;
 }
 /* responsive header section */
 @media screen and (max-width: 576px) {
@@ -245,6 +246,15 @@ footer{
         margin-top: 20px;
         margin-left: 10px;
     }
+    footer{
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
 } 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -260,5 +270,13 @@ footer{
     }
     .features-enjoy{
         flex-direction: column;
+    }
+    footer{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        justify-content: center;
     }
 }
