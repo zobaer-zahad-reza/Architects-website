@@ -144,6 +144,26 @@ main > section {
     max-width: 540px;
     margin-bottom: 60px;
 }
+/* sponser style */
+.sponser-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponser-info p{
+    margin-bottom: 30px;
+    font-size: 1rem;
+}
+.sponser-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+    align-items: center;
+}
+.sponser-companies img{
+    width: 100%;
+    filter: grayscale(100%);
+}
 /* responsive header section */
 @media screen and (max-width: 576px) {
     main > section {
